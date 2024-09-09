@@ -1,7 +1,15 @@
 :root{
-  --primary: '',
-  --contrastColor: '',
-  --white: '',
-  --fontColor: '',
-  --contrastFontColor: '',
+  --primary: '#F0C9EC';
+  --contrastColor: '#D45565';
+  --white: '#fff';
+  --fontColor: '#181818';
+  --lightGray: '#757575';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 24pt;
+  color: var(--contrastColor);
 }
