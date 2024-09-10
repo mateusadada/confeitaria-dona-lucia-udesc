@@ -1,10 +1,12 @@
 import React from 'react'
+import LoginForm from '../components/LoginForm/LoginForm'
+import '../../src/index.css'
 
 const Login = () => {
   return (
-    <div>
-      Login Page
-    </div>
+    <section className='w-full h-[100vh] flex items-center justify-center'>
+      <LoginForm />
+    </section>
   )
 }
 
