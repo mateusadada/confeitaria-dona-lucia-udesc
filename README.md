@@ -8,7 +8,7 @@
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/confeitaria-dona-lucia-udesc" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/issues"><img src="https://img.shields.io/github/issues/mateusadada/confeitaria-dona-lucia-udesc" alt="Issues Badge"/></a>
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc"><img src="https://komarev.com/ghpvc/?username=confeitaria-dona-lucia-udesc&color=447ff7&label=views" alt="Views count Badge"/></a>
-<br><a href="https://mateusadada.github.io/confeitaria-dona-lucia-udesc" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fconfeitaria-dona-lucia-udesc&logo=github" /></a>
+<br><a href="https://confeitaria-dona-lucia-udesc.vercel.app/" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fconfeitaria-dona-lucia-udesc&logo=github" /></a>
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/confeitaria-dona-lucia-udesc?color=2b9348"></a>
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/confeitaria-dona-lucia-udesc?color=2b9348" alt="License Badge"/></a>
 </div>
