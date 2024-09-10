@@ -48,7 +48,7 @@ No software installation on your computer is required; all you need to do is acc
 * [Python 3](https://www.python.org/) - The programming language used.
   * Flask
 * React.JS
-* Styled Components (CSS)
+* Tailwind CSS
 * Vercel
 * PostgreSQL
 
