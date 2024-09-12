@@ -26,18 +26,15 @@ const CashFlow = () => {
 
   useEffect(() => {
     if (optionSelected === "Income") {
-      // Ação para "Income"
       setInCashFlowMenu(false);
     } else if (optionSelected === "Outflow") {
-      // Ação para "Outflow"
       setInCashFlowMenu(false);
     } else if (optionSelected === "Consult") {
-      // Ação para "Consult"
       setInCashFlowMenu(false);
     } else if (optionSelected !== "") {
       alert("Error");
     }
-  }, [optionSelected]); // Esse `useEffect` reage a mudanças em `optionSelected`
+  }, [optionSelected]);
 
   return (
     <div className="w-full h-[100vh] flex items-center justify-center">
@@ -66,8 +63,11 @@ const CashFlow = () => {
           </article>
         ) : (
           <article>
-            <nav>
-              <BackButton route={"/menu"} />
+            <nav onClick={()=> {
+              setInCashFlowMenu(true);
+              setOptionSelected('');
+            }}>
+              <BackButton />
             </nav>
             {optionSelected == "Income" ? (
               <IncomeForm  />

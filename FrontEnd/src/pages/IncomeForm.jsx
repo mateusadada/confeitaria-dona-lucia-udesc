@@ -1,7 +1,7 @@
 import React from 'react'
 import BackButton from '../components/BackButton/BackButton';
 
-const IncomeForm = ({setStateFunction, stateValue}) => {
+const IncomeForm = () => {
   return (
     <div>
       INCOME FORM
