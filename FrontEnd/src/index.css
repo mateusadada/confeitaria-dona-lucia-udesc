@@ -95,7 +95,6 @@
 
 /* Styles for MENU.jsx */
 #Menu_Article__menuCard{
-  width: 25%;
   
   .Menu_LinkButton{
       background-color: var(--contrastColor);
