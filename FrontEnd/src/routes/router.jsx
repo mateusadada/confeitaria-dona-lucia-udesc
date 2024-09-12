@@ -5,6 +5,7 @@ import CashFlow from "../pages/CashFlow";
 import Orders from "../pages/Orders";
 import Recipes from "../pages/Recipes";
 import Pricing from "../pages/Pricing";
+import Storage from "../pages/Storage";
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,11 @@ const router = createBrowserRouter([
   {
     path: '/pricing',
     element: <Pricing />
-  }
+  },
+  {
+    path: '/storage',
+    element: <Storage />
+  },
 ])
 
 export default router;
