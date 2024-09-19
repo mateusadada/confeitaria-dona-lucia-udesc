@@ -1,8 +1,14 @@
 import React from 'react'
 import BackButton from "../components/BackButton/BackButton";
 import ContrastButton from '../components/ContrastButton/ContrastButton';
+import { useNavigate } from 'react-router-dom';
 
 const Storage = () => {
+  const navigate = useNavigate();
+  const goToAddIngredientForm = () => {
+    navigate('/storage/createIngredient')
+  }
+
   return (
     <div className="w-full h-[100vh] flex items-center justify-center">
       <section className="bg-white w-full max-w-[25%] p-5 rounded-lg shadow-lg">
@@ -24,7 +30,7 @@ const Storage = () => {
         />
 
         <ContrastButton
-              onClickFunction={null}
+              onClickFunction={goToAddIngredientForm}
               text={"Novo Ingrediente"}
               key={"Storage__newIngredient"}
         />
