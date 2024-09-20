@@ -10,7 +10,7 @@ const InputWithLabel = (props) => {
         {label}
       </label>
       <input 
-        className="bg-gray-100 rounded-md py-1 px-2 outline-none text-lightGray"
+        className="bg-gray-100 rounded-md py-1 px-2 outline-none text-lightGray text-[1rem]"
         id={label} placeholder={placeholder} type={inputType} 
         value={inputValue} onChange={onChangeFunction}
       />

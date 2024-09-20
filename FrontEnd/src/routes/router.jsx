@@ -6,6 +6,7 @@ import Orders from "../pages/Orders";
 import Recipes from "../pages/Recipes";
 import Pricing from "../pages/Pricing";
 import Storage from "../pages/Storage";
+import CreateIngredient from "../pages/Storage/CreateIngredient";
 
 const router = createBrowserRouter([
   {
@@ -34,8 +35,12 @@ const router = createBrowserRouter([
   },
   {
     path: '/storage',
-    element: <Storage />
+    element: <Storage />,
   },
+  {
+    path: '/storage/createIngredient',
+    element: <CreateIngredient />
+  }
 ])
 
 export default router;
