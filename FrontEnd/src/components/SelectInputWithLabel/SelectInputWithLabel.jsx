@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import ContrastButton from '../ContrastButton/ContrastButton';
+import React from 'react';
 
 const SelectInputWithLabel = (props) => {
   const { options, handleChange, label } = props;
@@ -9,15 +8,24 @@ const SelectInputWithLabel = (props) => {
       <label htmlFor="input" className="mt-2 text-[1rem]">
         {label}
       </label>
-      <select name="selectInput" id="SelectInput" onChange={handleChange} className='bg-gray-100 rounded-md py-1 px-2 outline-none text-lightGray text-[1rem]'>
+      <select
+        name="selectInput"
+        id="SelectInput"
+        onChange={handleChange}
+        className="bg-gray-100 rounded-md py-1 px-2 outline-none text-lightGray text-[1rem]"
+      >
         {options && options.length > 0 ? (
-          options.map((option, index) => (
-            <option key={index} value={option.id} className='text-[1rem]'>
+          options.map((option) => (
+            <option
+              key={option.cod_unidade_medida} 
+              value={option.cod_unidade_medida}
+              className="text-[1rem]"
+            >
               {option.nome}
             </option>
           ))
         ) : (
-          <option value="">Nenhuma opção disponível</option> 
+          <option value="">Nenhuma opção disponível</option>
         )}
       </select>
     </div>
