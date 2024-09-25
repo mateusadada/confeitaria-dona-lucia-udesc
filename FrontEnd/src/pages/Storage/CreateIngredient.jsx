@@ -130,7 +130,7 @@ const CreateIngredient = () => {
       <BackgroundCard title={"Adicionar Novo Ingrediente:"}>
         <p className="text-sm">
           Preencha o formulário abaixo para cadastro de um novo ingrediente no
-          seu estoque
+          seu estoque.
         </p>
         <form onSubmit={handleInsert}>
           <InputWithLabel
