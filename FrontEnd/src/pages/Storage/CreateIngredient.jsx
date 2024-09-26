@@ -46,7 +46,7 @@ const CreateIngredient = () => {
           .select();
 
         if (itemError) {
-          console.log("Error inserting data in Item table:", itemError);
+          console.log("Error inserting data:", itemError);
           return;
         }
         // Retrieve the cod_item from the inserted row
