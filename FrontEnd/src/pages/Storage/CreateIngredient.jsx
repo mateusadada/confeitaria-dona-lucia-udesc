@@ -7,8 +7,8 @@ import { validateAmountField, validateTextField } from "../../utils/functions";
 
 const CreateIngredient = () => {
   const [ingredientName, setIngredientName] = useState("");
-  const [unitPrice, setUnitPrice] = useState();
-  const [quantityInStorage, setQuantityInStorage] = useState();
+  const [unitPrice, setUnitPrice] = useState("");
+  const [quantityInStorage, setQuantityInStorage] = useState("");
   const [observation, setObservation] = useState("");
   const [ingredientBrand, setIngredientBrand] = useState("");
   const [unities, setUnities] = useState([]);
@@ -31,7 +31,7 @@ const CreateIngredient = () => {
 
     try {
       if (!hasErrorFlag) {
-        // Insert into Item
+        // Inserir na tabela Item
         const { data: itemData, error: itemError } = await supabase
           .from("Item")
           .insert([
@@ -46,13 +46,14 @@ const CreateIngredient = () => {
           .select();
 
         if (itemError) {
-          console.log("Error inserting data in Item table:", itemError);
+          console.log("Erro ao inserir dados na tabela Item:", itemError);
           return;
         }
-        // Retrieve the cod_item from the inserted row
+
+        // Recuperar o cod_item da linha inserida
         const cod_item = itemData[0].cod_item;
 
-        // Insert into Ingrediente using the cod_item from Item
+        // Inserir na tabela Ingrediente usando o cod_item
         const { data: ingredientData, error: ingredientError } = await supabase
           .from("Ingrediente")
           .insert([
@@ -64,22 +65,18 @@ const CreateIngredient = () => {
           ]);
 
         if (ingredientError) {
-          console.log(
-            "Error inserting data in Ingrediente table:",
-            ingredientError
-          );
+          console.log("Erro ao inserir dados na tabela Ingrediente:", ingredientError);
         } else {
-          console.log("Ingredient inserted:", ingredientData);
+          console.log("Ingrediente inserido:", ingredientData);
           alert("Ingrediente Adicionado!");
           resetFields();
-          openModal();
         }
       } else {
-        throw new Error("Input filled incorrectly! Try again!");
+        throw new Error("Campos preenchidos incorretamente! Tente novamente.");
       }
     } catch (err) {
-      alert("Error in input content!", err);
-      console.log("Error inserting data:", err);
+      alert("Erro no conteúdo de entrada!", err);
+      console.log("Erro ao inserir dados:", err);
     }
   };
 
@@ -88,11 +85,11 @@ const CreateIngredient = () => {
       errorIn.push("IngredientName");
     } else if (!validateAmountField(unitPrice)) {
       errorIn.push("UnitPrice");
-    } else if (quantityInStorage == "") {
+    } else if (quantityInStorage === "") {
       errorIn.push("QuantiyInStorage");
     } else if (!validateTextField(ingredientBrand)) {
       errorIn.push("IngredientBrand");
-    } else if (selected == "" || selected == null || selected == undefined) {
+    } else if (!selected) {
       errorIn.push("SelectedInput");
     }
 
@@ -104,7 +101,7 @@ const CreateIngredient = () => {
     return true;
   };
 
-  // get "Unidade_de_Medida" from database
+  // Carregar "Unidade_de_Medida" do banco de dados
   useEffect(() => {
     async function fetchUnities() {
       try {
@@ -113,12 +110,12 @@ const CreateIngredient = () => {
           .select("*");
 
         if (error) {
-          console.log("Error fetching units:", error);
+          console.log("Erro ao buscar unidades de medida:", error);
         } else {
           setUnities(Unidade_Medida);
         }
       } catch (error) {
-        console.log("Error:", error);
+        console.log("Erro:", error);
       }
     }
 
@@ -129,8 +126,7 @@ const CreateIngredient = () => {
     <div>
       <BackgroundCard title={"Adicionar Novo Ingrediente:"}>
         <p className="text-sm">
-          Preencha o formulário abaixo para cadastro de um novo ingrediente no
-          seu estoque
+          Preencha o formulário abaixo para cadastro de um novo ingrediente no seu estoque.
         </p>
         <form onSubmit={handleInsert}>
           <InputWithLabel
