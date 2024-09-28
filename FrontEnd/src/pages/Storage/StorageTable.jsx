@@ -36,7 +36,7 @@ const StorageTable = () => {
       <section className="bg-white w-full max-w-[75%] p-5 rounded-lg shadow-lg">
         <nav className="w-fit flex gap-5 items-center">
           <BackButton route={"/menu"} />
-        <article className="mb-2 font-bold text-[2rem]">Items em Estoque</article>
+        <article className="mb-2 font-bold text-[2rem]">Itens em estoque</article>
         </nav>
         <div className="overflow-x-auto">
           <table className="table">
