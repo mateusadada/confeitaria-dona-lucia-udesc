@@ -8,6 +8,9 @@ const Storage = () => {
   const goToAddIngredientForm = () => {
     navigate('/storage/createIngredient')
   }
+  const goToStoredItems = () => {
+    navigate('/storage/items');
+  };
 
   return (
     <div className="w-full h-[100vh] flex items-center justify-center">
@@ -18,7 +21,7 @@ const Storage = () => {
         <article>Estoque</article>
         <article className='flex items-center justify-center flex-col gap-2'>
         <ContrastButton
-              onClickFunction={null}
+              onClickFunction={goToStoredItems}
               text={"Consultar Estoque"}
               key={"Storage__consultStorage"}
         />

@@ -7,6 +7,7 @@ import Recipes from "../pages/Recipes";
 import Pricing from "../pages/Pricing";
 import Storage from "../pages/Storage";
 import CreateIngredient from "../pages/Storage/CreateIngredient";
+import StorageTable from "../pages/Storage/StorageTable";
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,11 @@ const router = createBrowserRouter([
   {
     path: '/storage/createIngredient',
     element: <CreateIngredient />
-  }
+  },
+  {
+    path: '/storage/items',
+    element: <StorageTable />
+  },
 ])
 
 export default router;
