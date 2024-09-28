@@ -14,10 +14,10 @@ const LoginForm = () => {
   const onButtonClick = () => {
     const matched = loginValidation(user, password);
     if(matched){
-      alert('Logado com Sucesso...');
+      alert('Logado com sucesso...');
       navigate('/menu');
     } else{
-      alert('Usuário ou Senha Incorretos...')
+      alert('Usuário ou senha incorretos...')
     }
   }
 
@@ -31,7 +31,7 @@ const LoginForm = () => {
 
   return(
     <article className="bg-white text-fontColor pb-10 px-10 pt-5 rounded-lg shadow-lg">
-      <h1 className="text-2xl text-center font-bold">Seja Bem Vindo (a)</h1>
+      <h1 className="text-2xl text-center font-bold">Seja bem-vindo (a)</h1>
       <section className="flex flex-col text-[1rem]">
         <InputWithLabel label="Usuário" placeholder={""} onChangeFunction={onChangeUser} inputType={"text"} inputValue={user} />
       </section>

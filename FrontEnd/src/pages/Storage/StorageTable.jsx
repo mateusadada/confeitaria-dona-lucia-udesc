@@ -45,8 +45,8 @@ const StorageTable = () => {
               <tr className="text-contrastColor text-lg text-center">
                 <th>Id</th>
                 <th>Nome</th>
-                <th>Valor Unitário (R$)</th>
-                <th>Quantidade Estoque</th>
+                <th>Valor unitário (R$)</th>
+                <th>Quantidade estoque</th>
                 <th>Observação</th>
               </tr>
             </thead>

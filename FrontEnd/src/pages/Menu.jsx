@@ -9,9 +9,9 @@ const Menu = () => {
         className="bg-white sm:w-fit lg:w-[25%] flex flex-col p-5 rounded-lg shadow-lg"
         id="Menu_Article__menuCard"
       >
-        <h1 className="text-lightGray mb-5 text-center">Central de Controle</h1>
+        <h1 className="text-lightGray mb-5 text-center">Central de controle</h1>
         <Link to="/cashflow" className="Menu_LinkButton">
-          Fluxo de Caixa
+          Fluxo de caixa
         </Link>
 
         <Link to="/recipes" className="Menu_LinkButton">
@@ -31,7 +31,7 @@ const Menu = () => {
         </Link>
 
         <p className="text-[.85rem]">
-          Precisa de Ajuda? Clique{" "}
+          Precisa de ajuda? Clique{" "}
           <a className="underline text-[.85rem] hover:cursor-pointer hover:text-blue-500">
             aqui
           </a>
