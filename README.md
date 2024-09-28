@@ -50,7 +50,8 @@ No software installation on your computer is required; all you need to do is acc
 * React.JS
 * Tailwind CSS
 * Vercel
-* PostgreSQL
+* Supabase (PostgreSQL)
+* Daisy UI
 
 ## ✒️ Author
 
