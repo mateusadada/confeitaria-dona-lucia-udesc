@@ -15,6 +15,8 @@ export default {
   			},
   			contrastColor: '#D45569',
   			contrastColorHover: '#a64252',
+				primaryColor:"#F0C9EC",
+				primaryColorHover:"#cfaecb",
   			fontColor: '#181818',
   			lightGray: '#757575',
   			background: 'hsl(var(--background))',

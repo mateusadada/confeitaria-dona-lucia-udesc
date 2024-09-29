@@ -8,8 +8,8 @@ const BackgroundCard = ( props ) => {
       <section className="bg-white w-full max-w-[25%] p-5 rounded-lg shadow-lg">
         <nav className="w-fit">
           <BackButton route={"/menu"} />
-        </nav>
         <article className="mb-2 font-bold">{ title }</article>
+        </nav>
         <div>{ children }</div>
       </section>
     </div>
