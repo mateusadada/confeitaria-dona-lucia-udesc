@@ -22,25 +22,25 @@ const Storage = () => {
         <article className='flex items-center justify-center flex-col gap-2'>
         <ContrastButton
               onClickFunction={goToStoredItems}
-              text={"Consultar Estoque"}
+              text={"Consultar estoque"}
               key={"Storage__consultStorage"}
         />
 
         <ContrastButton
               onClickFunction={null}
-              text={"Criar Produto"}
+              text={"Criar produto"}
               key={"Storage__createProductBtn"}
         />
 
         <ContrastButton
               onClickFunction={goToAddIngredientForm}
-              text={"Novo Ingrediente"}
+              text={"Novo ingrediente"}
               key={"Storage__newIngredient"}
         />
 
         <ContrastButton
               onClickFunction={null}
-              text={"Consultar Ingredientes"}
+              text={"Consultar ingredientes"}
               key={"Storage__consultIngredients"}
         />
         </article>

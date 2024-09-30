@@ -142,7 +142,7 @@ const StorageTable = () => {
       <section className="bg-white w-full max-w-[75%] p-5 rounded-lg shadow-lg">
         <nav className="w-fit flex gap-5 items-center">
           <BackButton route={"/menu"} />
-          <article className="mb-2 font-bold text-[2rem]">Items em Estoque</article>
+          <article className="mb-2 font-bold text-[2rem]">Itens em estoque</article>
         </nav>
 
         <div className="mb-5 flex gap-4 items-center">
@@ -169,8 +169,8 @@ const StorageTable = () => {
               <tr className="text-contrastColor text-lg text-center">
                 <th>Id</th>
                 <th>Nome</th>
-                <th>Valor Unitário (R$)</th>
-                <th>Quantidade Estoque</th>
+                <th>Valor unitário (R$)</th>
+                <th>Quantidade estoque</th>
                 <th>Observação</th>
                 <th>Ações</th>
               </tr>

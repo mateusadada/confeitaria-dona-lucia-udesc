@@ -3,14 +3,14 @@
 
 <h1 align="center">Project Management - UDESC</h1>
 <div align="center"><i>The final project: Confeitaria Dona Lúcia</i><br><br>
-<a href="https://github.com/mateusadada/gpr-udesc/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/gpr-udesc" alt="Stars Badge"/></a>
-<a href="https://github.com/mateusadada/gpr-udesc/network/members"><img src="https://img.shields.io/github/forks/mateusadada/gpr-udesc" alt="Forks Badge"/></a>
-<a href="https://github.com/mateusadada/gpr-udesc/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/gpr-udesc" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/mateusadada/gpr-udesc/issues"><img src="https://img.shields.io/github/issues/mateusadada/gpr-udesc" alt="Issues Badge"/></a>
-<a href="https://github.com/mateusadada/gpr-udesc"><img src="https://komarev.com/ghpvc/?username=gpr-udesc&color=447ff7&label=views" alt="Views count Badge"/></a>
-<br><a href="https://mateusadada.github.io/gpr-udesc" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fgpr-udesc&logo=github" /></a>
-<a href="https://github.com/mateusadada/gpr-udesc/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/gpr-udesc?color=2b9348"></a>
-<a href="https://github.com/mateusadada/gpr-udesc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/gpr-udesc?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/confeitaria-dona-lucia-udesc" alt="Stars Badge"/></a>
+<a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/network/members"><img src="https://img.shields.io/github/forks/mateusadada/confeitaria-dona-lucia-udesc" alt="Forks Badge"/></a>
+<a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/confeitaria-dona-lucia-udesc" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/issues"><img src="https://img.shields.io/github/issues/mateusadada/confeitaria-dona-lucia-udesc" alt="Issues Badge"/></a>
+<a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc"><img src="https://komarev.com/ghpvc/?username=confeitaria-dona-lucia-udesc&color=447ff7&label=views" alt="Views count Badge"/></a>
+<br><a href="https://confeitaria-dona-lucia-udesc.vercel.app/" target="blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmateusadada.github.io%2Fconfeitaria-dona-lucia-udesc&logo=github" /></a>
+<a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mateusadada/confeitaria-dona-lucia-udesc?color=2b9348"></a>
+<a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mateusadada/confeitaria-dona-lucia-udesc?color=2b9348" alt="License Badge"/></a>
 </div>
 
 ## 📜 Table of contents
@@ -48,9 +48,10 @@ No software installation on your computer is required; all you need to do is acc
 * [Python 3](https://www.python.org/) - The programming language used.
   * Flask
 * React.JS
-* Styled Components (CSS)
+* Tailwind CSS
 * Vercel
-* PostgreSQL
+* Supabase (PostgreSQL)
+* Daisy UI
 
 ## ✒️ Author
 
@@ -59,10 +60,10 @@ No software installation on your computer is required; all you need to do is acc
 * **Tiffany Marcele Lino** - *Developer* - [linotiff](https://github.com/linotiff)
 * **Vinicius Eduardo Beuther** - *Developer* - [ViniciusBeuther](https://github.com/ViniciusBeuther)
 
-You can also see the list of all [collaborators](https://github.com/mateusadada/gpr-udesc/graphs/contributors) who participated in this project.
+You can also see the list of all [collaborators](https://github.com/mateusadada/confeitaria-dona-lucia-udesc/graphs/contributors) who participated in this project.
 
 ## 📄 License
 
-This project is under the license MIT. See the [LICENSE.md](https://github.com/mateusadada/gpr-udesc/blob/main/LICENSE) file for more details.
+This project is under the license MIT. See the [LICENSE.md](https://github.com/mateusadada/confeitaria-dona-lucia-udesc/blob/main/LICENSE) file for more details.
 
 <hr><p align="center">Developed with ❤️ in Brazil 🇧🇷</p>

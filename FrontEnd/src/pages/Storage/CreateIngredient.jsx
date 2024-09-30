@@ -68,7 +68,7 @@ const CreateIngredient = () => {
           console.log("Erro ao inserir dados na tabela Ingrediente:", ingredientError);
         } else {
           console.log("Ingrediente inserido:", ingredientData);
-          alert("Ingrediente Adicionado!");
+          alert("Ingrediente adicionado!");
           resetFields();
         }
       } else {
@@ -124,19 +124,19 @@ const CreateIngredient = () => {
 
   return (
     <div>
-      <BackgroundCard title={"Adicionar Novo Ingrediente:"}>
+      <BackgroundCard title={"Adicionar novo ingrediente:"}>
         <p className="text-sm">
           Preencha o formulário abaixo para cadastro de um novo ingrediente no seu estoque.
         </p>
         <form onSubmit={handleInsert}>
           <InputWithLabel
-            label="Nome do Produto"
+            label="Nome do produto"
             inputType="text"
             inputValue={ingredientName}
             onChangeFunction={(ev) => setIngredientName(ev.target.value)}
           />
           <InputWithLabel
-            label="Preço Unitário"
+            label="Preço unitário"
             inputType="number"
             inputValue={unitPrice}
             placeholder="R$ 0.00"
@@ -164,7 +164,7 @@ const CreateIngredient = () => {
           <SelectInputWithLabel
             options={unities}
             handleChange={(ev) => setSelected(ev.target.value)}
-            label={"Unidade de Medida"}
+            label={"Unidade de medida"}
           />
 
           <button
