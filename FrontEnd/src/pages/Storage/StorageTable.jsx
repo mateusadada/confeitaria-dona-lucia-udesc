@@ -86,7 +86,9 @@ const StorageTable = () => {
       setFilteredData(
         filteredData.filter((item) => item.cod_item !== selectedItem.cod_item)
       );
+
       setIsDeleteModalOpen(false);
+
     } catch (err) {
       console.error("Erro ao deletar item:", err);
     }
