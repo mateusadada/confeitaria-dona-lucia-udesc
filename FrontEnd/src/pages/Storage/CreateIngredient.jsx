@@ -16,6 +16,15 @@ const CreateIngredient = () => {
   let hasErrorFlag = false;
   let errorIn = [];
 
+  const clearFields = () => {
+    setIngredientName('');
+    setUnitPrice(0.00);
+    setQuantityInStorage(0);
+    setObservation('');
+    setIngredientBrand('');
+    setSelected('');
+  }
+
   const resetFields = () => {
     setIngredientName("");
     setUnitPrice("");
@@ -27,7 +36,6 @@ const CreateIngredient = () => {
 
   const handleInsert = async (ev) => {
     ev.preventDefault();
-    validateInputFields();
 
     try {
       if (!hasErrorFlag) {
@@ -45,6 +53,7 @@ const CreateIngredient = () => {
           ])
           .select();
 
+        clearFields();
         if (itemError) {
           console.log("Erro ao inserir dados na tabela Item:", itemError);
           return;
@@ -128,6 +137,7 @@ const CreateIngredient = () => {
         <p className="text-sm">
           Preencha o formulário abaixo para cadastro de um novo ingrediente no seu estoque.
         </p>
+
         <form onSubmit={handleInsert}>
           <InputWithLabel
             label="Nome do produto"
@@ -135,6 +145,7 @@ const CreateIngredient = () => {
             inputValue={ingredientName}
             onChangeFunction={(ev) => setIngredientName(ev.target.value)}
           />
+        
           <InputWithLabel
             label="Preço unitário"
             inputType="number"
@@ -142,6 +153,7 @@ const CreateIngredient = () => {
             placeholder="R$ 0.00"
             onChangeFunction={(ev) => setUnitPrice(ev.target.value)}
           />
+        
           <InputWithLabel
             label="Em estoque"
             inputType="number"
@@ -149,12 +161,14 @@ const CreateIngredient = () => {
             placeholder="0"
             onChangeFunction={(ev) => setQuantityInStorage(ev.target.value)}
           />
+        
           <InputWithLabel
             label="Observação"
             inputType="text"
             inputValue={observation}
             onChangeFunction={(ev) => setObservation(ev.target.value)}
           />
+        
           <InputWithLabel
             label="Marca"
             inputType="text"

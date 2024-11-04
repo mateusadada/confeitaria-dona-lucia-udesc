@@ -100,7 +100,7 @@ const StorageTable = () => {
         .from("Item")
         .update(editForm)
         .eq("cod_item", selectedItem.cod_item);
-
+      
       if (error) throw error;
 
       const updatedData = data.map((item) =>
