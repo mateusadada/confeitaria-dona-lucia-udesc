@@ -29,11 +29,11 @@ The site offers features that help the confectioner organize recipes in a centra
 
 Used during the evolution of the project:
 
-- **Centralized Recipe Management**: All recipes are stored in a single, organized database, making it easy to find and follow production processes.
-- **Inventory Control**: Keep track of raw material and product stock levels with alerts for low inventory, ensuring you never run out of essential supplies.
-- **Cost Management**: A built-in calculator helps determine product pricing based on ingredient costs and other expenses, aiding in effective financial planning.
-- **Cash Flow Monitoring**: Visualize income and expenses through detailed financial reports, providing a clear picture of the bakery's financial health.
-- **User-Friendly Interface**: The website uses a clean and intuitive design with soft pastel colors, making navigation easy even for users with minimal technical skills.
+- Centralized Recipe Management: All recipes are stored in a single, organized database, making it easy to find and follow production processes.
+- Inventory Control: Keep track of raw material and product stock levels with alerts for low inventory, ensuring you never run out of essential supplies.
+- Cost Management: A built-in calculator helps determine product pricing based on ingredient costs and other expenses, aiding in effective financial planning.
+- Cash Flow Monitoring: Visualize income and expenses through detailed financial reports, providing a clear picture of the bakery's financial health.
+- User-Friendly Interface: The website uses a clean and intuitive design with soft pastel colors, making navigation easy even for users with minimal technical skills.
 
 ## 📋 Prerequisites
 
