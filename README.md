@@ -1,8 +1,5 @@
-> [!IMPORTANT]
-> The repository and README are under development.
-
 <h1 align="center">Project Management - UDESC</h1>
-<div align="center"><i>The final project: Confeitaria Dona Lúcia</i><br><br>
+<div align="center"><i>The project: Confeitaria Dona Lúcia</i><br><br>
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/stargazers"><img src="https://img.shields.io/github/stars/mateusadada/confeitaria-dona-lucia-udesc" alt="Stars Badge"/></a>
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/network/members"><img src="https://img.shields.io/github/forks/mateusadada/confeitaria-dona-lucia-udesc" alt="Forks Badge"/></a>
 <a href="https://github.com/mateusadada/confeitaria-dona-lucia-udesc/pulls"><img src="https://img.shields.io/github/issues-pr/mateusadada/confeitaria-dona-lucia-udesc" alt="Pull Requests Badge"/></a>
@@ -24,34 +21,28 @@
 
 ## 🚀 Starting
 
-> [!NOTE]
-> In development
+This repository contains the project for the Project Management course in the fifth semester. Our project involves the development of a website for Confeitaria Dona Lúcia, aimed at optimizing the management of recipes, inventory control, and cash flow. The system is designed with a friendly and intuitive interface, using soft colors and a simplified layout to provide a pleasant user experience.
 
-This repository contains the solved exercises from Project Management course in the fifth semester.
+The site offers features that help the confectioner organize recipes in a centralized manner, calculate production costs, monitor the inflow and outflow of materials, and manage finances effectively. The primary goal is to simplify management and promote more efficient administration, leading to productivity improvements and potentially increased profits.
 
 ## 📚 Features
 
-> [!NOTE]
-> In development
+Used during the evolution of the project:
 
-Used during the evolution of exercises:
+- **Centralized Recipe Management**: All recipes are stored in a single, organized database, making it easy to find and follow production processes.
+- **Inventory Control**: Keep track of raw material and product stock levels with alerts for low inventory, ensuring you never run out of essential supplies.
+- **Cost Management**: A built-in calculator helps determine product pricing based on ingredient costs and other expenses, aiding in effective financial planning.
+- **Cash Flow Monitoring**: Visualize income and expenses through detailed financial reports, providing a clear picture of the bakery's financial health.
+- **User-Friendly Interface**: The website uses a clean and intuitive design with soft pastel colors, making navigation easy even for users with minimal technical skills.
 
 ## 📋 Prerequisites
 
-No software installation on your computer is required; all you need to do is access the site directly through your browser. This ensures convenience and immediate access to the available information and resources.
+No software installation on your computer is required; simply access the site directly through your browser. This approach ensures convenience and immediate access to the system's features and information. The site is compatible with modern browsers such as Chrome, Firefox, and Edge, and does not require additional updates or plug-ins for basic functionality.
 
 ## 🛠️ Built with
 
-> [!NOTE]
-> In development
-
-* [Python 3](https://www.python.org/) - The programming language used.
-  * Flask
-* React.JS
-* Tailwind CSS
-* Vercel
-* Supabase (PostgreSQL)
-* Daisy UI
+* [HTML](https://en.wikipedia.org/wiki/HTML5), [CSS](https://en.wikipedia.org/wiki/CSS), and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - The foundational technologies used for building and styling the front end of the website.
+* [Supabase](https://supabase.com/) - An open-source backend service used for database management and handling data storage efficiently.
 
 ## ✒️ Author
 
