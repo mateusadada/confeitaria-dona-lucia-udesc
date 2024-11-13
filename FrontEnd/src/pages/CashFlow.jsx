@@ -52,7 +52,7 @@ const CashFlow = () => {
             />
             <ContrastButton
               onClickFunction={handleOutflow}
-              text={"Saida"}
+              text={"Saída"}
               key={"CashFlow__outflowAmount"}
             />
             <ContrastButton
